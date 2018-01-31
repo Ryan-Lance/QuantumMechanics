@@ -109,33 +109,3 @@ for t in range(Nt):
 	plt.draw()
 	plt.pause(1e-3)
 plt.ioff()
-'''
-class HOpotential():
-	
-	def __init__(self):
-		pass
-	
-	def V(x):
-		self.V = 0.5 * w**2 * (x-L/2)**2 
-		return V
-	
-
-class wavefunction():
-	
-	def __init__(self, function, potential = HOpotential):
-		
-		self.normalize()				# normalize c_n's
-		self.projectState(HOpotential)	# project state onto potential
-			
-	
-	def normalize():
-		total = 0
-		for i in states:
-			total += (states[i][0])**2
-		for j in states:
-			states[i][0] /= total
-	
-	def projectState():
-		pass
-		
-'''
